@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Resume.css  ">
+
+
+</head>
+
+<body>
+    <div class="Resume-Container">
+        <div class="Resume-Search">
+
+            <div class="buttonIn">
+                <div id="textallign">
+                    <input id="InputText" type="text" onclick="showbutton()"
+                        placeholder="Search a keyword to filter the resume">
+                    <button id="clear" onclick="inputclear(event);">X</button>
+                </div>
+                <button onclick="previousResume()" id="Previous">
+                    Previous
+                </button>
+                <button onclick="nextResume()" id="Next">
+                    Next
+                </button>
+            </div>
+
+        </div>
+        <div class="NotFound">
+            <div id="ErrorDisplay">
+                <img src="../images/Error.JPG" alt="No results found">
+            </div>
+            <div class="resume-container">
+                <div id="resume-display-area">
+                    <div class="resume-header">
+                        <h2 id="name"></h2>
+                        <div class="appliedFor">Applied For: <span id="appliedFor"></span> </div>
+                        <div id="iicon">
+                            <i class="fa-solid fa-user fa-4x"></i>
+                        </div>
+                    </div>
+                    <div class="resume-columns">
+                        <div class="col-1">
+                            <div id="rightAllign">
+                                <section class="resume-body">
+                                    <h3 class="col-1-heading">Personal Information</h3>
+                                    <div id="mobile-number"></div>
+                                    <div id="email"></div>
+                                    <div id="linkedin"></div>
+                                </section>
+                                <section class="resume-body">
+                                    <h3 class="col-1-heading">Technical Skills</h3>
+                                    <div id="tech-skills">
+                                    </div>
+                                </section>
+                                <section class="resume-body">
+                                    <h3 class="col-1-heading">Hobbies</h3>
+                                    <div id="hobbies"></div>
+                                </section>
+                            </div>
+                        </div>
+                        <div>
+                            <section class="resume-body">
+                                <h3>Work Experience in previous company</h3>
+                                <div>
+                                    <p>
+                                        <b> Company Name:</b> <span id="prev-company-name"></span>
+                                    </p>
+                                    <p>
+                                        <b> Position:</b> <span id="prev-company-position"></span>
+                                    </p>
+                                    <p>
+                                        <b> Start Date:</b> <span id="prev-company-start-date"></span>
+                                    </p>
+                                    <p>
+                                        <b> End Date:</b> <span id="prev-company-end-date"></span>
+                                    </p>
+                                    <p>
+                                        <b> Summary:</b> <span id="prev-company-summary"></span>
+                                    </p>
+                                </div>
+                            </section>
+                            <section class="resume-body">
+                                <h3>Projects</h3>
+                                <div id="project-details"></div>
+                            </section>
+                            <section class="resume-body">
+                                <h3>Education</h3>
+                                <ul id="education-details">
+                                    <li>
+                                        <p><b>UG: </b> <span id="ug"></span></p>
+                                    </li>
+                                    <li>
+                                        <p><b>Senior Secondary: </b> <span id="senior-secondary"></span></p>
+                                    </li>
+                                    <li>
+                                        <p><b>High School: </b> <span id="high-school"></span></p>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="resume-body">
+                                <h3>Internship</h3>
+                                <ul>
+                                    <li>
+                                        <b> Company Name:</b> <span id="internship-name"></span>
+                                    </li>
+                                    <li>
+                                        <b> Position:</b> <span id="internship-position"></span>
+                                    </li>
+                                    <li>
+                                        <b> Start Date:</b> <span id="internship-start-date"></span>
+                                    </li>
+                                    <li>
+                                        <b> End Date:</b> <span id="internship-end-date"></span>
+                                    </li>
+                                    <li>
+                                        <b> Summary:</b> <span id="internship-summary"></span>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="resume-body">
+                                <h3>Achievements</h3>
+                                <ul>
+                                    <li id="achievements"></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../Javascript/Resume.js"></script>
+    <script type="text/javascript" src="../Javascript/data.js"></script>
+    <script src="https://kit.fontawesome.com/e392a01541.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

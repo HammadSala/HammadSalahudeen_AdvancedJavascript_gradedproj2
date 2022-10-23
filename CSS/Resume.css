@@ -1,0 +1,154 @@
+.Resume-Container {
+    top: 100px;
+    padding: 15px;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    border: 2px solid black;
+    height: relative;
+}
+
+#Previous {
+    margin-left: 8%
+}
+
+
+.buttonIn {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    left: 20%;
+}
+
+#textallign {
+    display: inline;
+}
+
+.buttonIn input {
+    width: 40%;
+
+}
+
+#Next {
+    margin-left: 8%;
+}
+
+#InputText {
+    width: 90%;
+}
+
+#clear {
+    display: none;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    color: rgb(17, 246, 246);
+    font-weight: bold;
+    background-color: green;
+    transform: translateX(2px);
+    z-index: 2;
+    margin-left: -25px;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.Resume-Search {
+
+    width: 90%;
+}
+
+
+#ErrorDisplay {
+    display: none;
+}
+
+
+.Resume-Header {
+    display: inline-block;
+}
+
+
+.resume-container {
+    margin: 10px;
+}
+
+.resume-header {
+    text-align: center;
+    background-color: rgb(206, 233, 233);
+}
+
+#name {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.appliedFor {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.resume-columns {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 10px;
+    grid-gap: 50px;
+}
+
+
+.col-1 {
+    background-color: rgb(236, 190, 198);
+    padding: 10px;
+}
+
+.col-1-heading {
+    background-color: rgb(152, 147, 147);
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+#search-result-area {
+    text-align: center;
+}
+
+#search-results {
+    list-style-type: none;
+}
+
+.search-bar-area {
+    text-align: center;
+    margin: auto;
+}
+
+#searchbar {
+    width: 400px;
+}
+
+.resume-container {
+    border: 2px solid black;
+}
+
+.resume-display-area {
+    display: inline;
+}
+
+#rightAllign {
+    text-align: right;
+}
+
+#tech-skills p,
+#hobbies p {
+    margin: 0;
+}
+
+#iicon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    top: -100px;
+    margin-right: 50px;
+}
